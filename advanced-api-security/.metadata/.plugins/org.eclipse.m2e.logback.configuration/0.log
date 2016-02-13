@@ -1,8 +1,0 @@
-2016-02-13 05:48:46,942 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.11.2/nimbus-jose-jwt-4.11.2.pom
-2016-02-13 05:48:46,992 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.11.2/nimbus-jose-jwt-4.11.2.pom
-2016-02-13 05:48:47,137 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.11.2/nimbus-jose-jwt-4.11.2.jar
-2016-02-13 05:48:47,412 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.11.2/nimbus-jose-jwt-4.11.2.jar
-2016-02-13 05:50:33,375 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45.pom
-2016-02-13 05:50:33,411 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45.pom
-2016-02-13 05:50:33,457 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45.jar
-2016-02-13 05:50:34,334 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45.jar
