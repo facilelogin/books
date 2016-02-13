@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;org.facilelogin.api.security.Test.java&apos; to &apos;PlainJWTBuilder.java&apos;&#x0A;- Original project: &apos;org.facilelogin.api.security&apos;&#x0A;- Original element: &apos;org.facilelogin.api.security.Test.java&apos;&#x0A;- Renamed element: &apos;org.facilelogin.api.security.PlainJWTBuilder.java&apos;" description="Rename compilation unit &apos;Test.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;org.facilelogin.api.security{Test.java" name="PlainJWTBuilder.java" references="false" stamp="1451778795873" version="1.0"/>
+</session>

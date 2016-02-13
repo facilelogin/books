@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.nimbusds.jose.JWSObject"/>
+<fullyQualifiedTypeName name="com.nimbusds.jose.Payload"/>
+<fullyQualifiedTypeName name="java.security.SecureRandom"/>
+<fullyQualifiedTypeName name="com.nimbusds.jose.JWSVerifier"/>
+<fullyQualifiedTypeName name="com.nimbusds.jose.proc.JWSVerifierFactory"/>
+</qualifiedTypeNameHistroy>

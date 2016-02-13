@@ -1,0 +1,56 @@
+package org.facilelogin.api.security;
+
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
+
+import com.nimbusds.jose.*;
+import com.nimbusds.jwt.*;
+
+public class PlainJWTBuilder {
+
+	public static String buildPlainJWT() {
+
+		// set values for audience restriction.
+		List<String> aud = new ArrayList<String>();
+		aud.add("https://app1.foo.com");
+		aud.add("https://app2.foo.com");
+
+		// create a claim set.
+		JWTClaimsSet jwtClaims = new JWTClaimsSet.Builder().issuer("https://apress.com").subject("john").audience(aud)
+				.build();
+
+		// set the value of the issuer.
+		jwtClaims.setIssuer("https://apress.com");
+
+		// set the subject value - JWT belongs to this subject.
+		jwtClaims.setSubject("john");
+
+		// expiration time set to 10 minutes.
+		jwtClaims.setExpirationTime(new Date(new Date().getTime() + 1000 * 60 * 10));
+
+		Date currentTime = new Date();
+
+		// set the valid from time to current time.
+		jwtClaims.setNotBeforeTime(currentTime);
+
+		// set issued time to current time.
+		jwtClaims.setIssueTime(currentTime);
+
+		// set a generated UUID as the JWT identifier.
+		jwtClaims.setJWTID(UUID.randomUUID().toString());
+
+		// create plaintext JWT with the JWT claims.
+		PlainJWT plainJwt = new PlainJWT(jwtClaims);
+
+		// serialize into string.
+		String jwtInText = plainJwt.serialize();
+
+		// print the value of the JWT.
+		System.out.println(jwtInText);
+
+		return jwtInText;
+	}
+}
